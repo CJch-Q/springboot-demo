@@ -8,6 +8,6 @@ public class testController {
 
     @GetMapping("/test")
     public String testCall(){
-        return "test";
+        return "test-docker 测试";
     }
 }
